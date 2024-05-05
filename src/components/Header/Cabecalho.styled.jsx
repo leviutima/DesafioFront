@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const CabecalhoContainer = styled.header`
     display: flex;
     justify-content: space-around;
+    padding-top: 1rem;
+    background-color: white;
 `
 
 export const InputSyle = styled.div`

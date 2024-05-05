@@ -1,13 +1,10 @@
 import { BagImg, CabecalhoContainer, Container, InputSyle, SpanStyle } from "./Cabecalho.styled"
 
-export const Cabecalho = ({children}) => {
+export const Cabecalho = () => {
     return(
         <CabecalhoContainer>
             <div>
                 <img src="../../../public/images/capputeeno.png"></img>
-            </div>
-            <div>
-                {children}
             </div>
             <Container>
                 <InputSyle>
@@ -16,7 +13,8 @@ export const Cabecalho = ({children}) => {
                 </InputSyle>
                 <BagImg src="../../../public/images/shopping-bag.svg"></BagImg>
             </Container>
-            
         </CabecalhoContainer>
     )
 }
+
+
